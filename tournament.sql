@@ -1,9 +1,9 @@
 -- Table definitions for the tournament project.
 --
 
--- Create the database
+-- Drop database if already exists, create the database, and connect to it
+DROP DATABASE IF EXISTS tournament;
 create database tournament;
-
 \c tournament
 
 -- Create the tables
